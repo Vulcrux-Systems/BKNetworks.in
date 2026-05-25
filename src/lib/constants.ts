@@ -1,3 +1,16 @@
+import acerLogo from '@/assets/acer.png';
+import lenovoLogo from '@/assets/lenovo.png';
+import logitechLogo from '@/assets/logitech.png';
+import hpLogo from '@/assets/hewlett packard.png';
+import lgLogo from '@/assets/LG.png';
+import maxhubLogo from '@/assets/Maxhub.png';
+import ciscoLogo from '@/assets/cisco.png';
+import wacomLogo from '@/assets/wacom.png';
+import ibmLogo from '@/assets/ibm.png';
+import hpeLogo from '@/assets/Hewlett Packard enterprise.png';
+import redhatLogo from '@/assets/redhat.png';
+import dellLogo from '@/assets/dell.png';
+
 // ===== COMPANY INFO =====
 export const COMPANY = {
   name: "BKNETWORK SERVICES PVT. LTD.",
@@ -162,18 +175,18 @@ export const SOLUTIONS = [
 
 // ===== PARTNERS =====
 export const TECHNOLOGY_PARTNERS = [
-  { name: "Acer", logo: "/acer.png" },
-  { name: "Lenovo", logo: "/lenovo.png" },
-  { name: "Logitech", logo: "/logitech.png" },
-  { name: "Hewlett Packard", logo: "/hewlett packard.png" },
-  { name: "LG", logo: "/LG.png" },
-  { name: "MaxHub", logo: "/Maxhub.png" },
-  { name: "Cisco", logo: "/cisco.png" },
-  { name: "Wacom", logo: "/wacom.png" },
-  { name: "IBM", logo: "/ibm.png" },
-  { name: "Hewlett Packard Enterprise", logo: "/Hewlett Packard enterprise.png" },
-  { name: "Red Hat", logo: "/redhat.png" },
-  { name: "Dell", logo: "/dell.png" },
+  { name: "Acer", logo: acerLogo },
+  { name: "Lenovo", logo: lenovoLogo },
+  { name: "Logitech", logo: logitechLogo },
+  { name: "Hewlett Packard", logo: hpLogo },
+  { name: "LG", logo: lgLogo },
+  { name: "MaxHub", logo: maxhubLogo },
+  { name: "Cisco", logo: ciscoLogo },
+  { name: "Wacom", logo: wacomLogo },
+  { name: "IBM", logo: ibmLogo },
+  { name: "Hewlett Packard Enterprise", logo: hpeLogo },
+  { name: "Red Hat", logo: redhatLogo },
+  { name: "Dell", logo: dellLogo },
 ];
 
 // ===== CLIENTS =====

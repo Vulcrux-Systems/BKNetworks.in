@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Mail, Linkedin, Phone, MapPin } from 'lucide-react';
 import { Footer as AnimatedFooter } from '@/components/ui/modem-animated-footer';
 import { COMPANY, SERVICES } from '@/lib/constants';
+import logoImg from '@/assets/logo.png';
 
 const socialLinks = [
   { icon: <Linkedin className="w-4 h-4" />, href: COMPANY.linkedin, label: 'LinkedIn' },
@@ -57,7 +58,7 @@ export default function Footer() {
       brandName="BKNetwork Services"
       brandLogo={
         <Image
-          src="/logo.png"
+          src={logoImg}
           alt={COMPANY.name}
           width={40}
           height={40}

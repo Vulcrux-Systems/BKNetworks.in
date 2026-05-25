@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Home, Info, Lightbulb, Wrench, Handshake, Mail, Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
+import logoImg from '@/assets/logo.png';
 
 const navLinks = [
   { href: '/', label: 'Home', icon: Home },
@@ -56,7 +57,7 @@ export default function Navbar() {
                 transition={{ type: 'spring', stiffness: 400, damping: 10 }}
               >
                 <Image
-                  src="/logo.png"
+                  src={logoImg}
                   alt="BKNETWORK"
                   width={32}
                   height={32}
